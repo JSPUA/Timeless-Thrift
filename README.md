@@ -10,6 +10,16 @@ Additionally, Timeless Thrift promotes a feeling of community by bringing togeth
 Timeless Thrift, which satisfies the expanding need for used apparel and encourages a recycling culture, is an innovative approach to electronic commerce. This platform intends to revolutionize the way consumers shop for clothes by fusing convenience, affordability, and sustainability, inciting a change towards environmentally and socially responsible consumer behavior.
 
 
+No. Student Name　              Matric number　　Email
+1　Pua Jing Sheng　               207345　　puajingsheng2001@gmail.com
+2　Low Li Ci　　　　               206476　　richie.low22@gmail.com
+3　Adly Syaukat Bin Shahrom Azmi　206050　　adly.syaukat@gmail.com (Main coders)
+4　Nik Syahmi Irfan               207811　niksyahmiirfan01@gmail.com
+5　Yan Kefu　                      205069　kefuyan7@gmail.com
+6　Mohammed Abdughani Alqasabi　   208707    mohamed@live.cn
+
+
+
 Document　：https://docs.google.com/document/d/1cd5DbbeULrbOaUOd-h4B_NKrqf-vYwsktZiGBtBByxM/edit?usp=sharing
 
 
