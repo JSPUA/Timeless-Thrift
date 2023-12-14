@@ -10,6 +10,6 @@ Additionally, Timeless Thrift promotes a feeling of community by bringing togeth
 Timeless Thrift, which satisfies the expanding need for used apparel and encourages a recycling culture, is an innovative approach to electronic commerce. This platform intends to revolutionize the way consumers shop for clothes by fusing convenience, affordability, and sustainability, inciting a change towards environmentally and socially responsible consumer behavior.
 
 
-Document　ｌｉｎｋ：https://docs.google.com/document/d/1cd5DbbeULrbOaUOd-h4B_NKrqf-vYwsktZiGBtBByxM/edit?usp=sharing
+Document　：https://docs.google.com/document/d/1cd5DbbeULrbOaUOd-h4B_NKrqf-vYwsktZiGBtBByxM/edit?usp=sharing
 
 
