@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&family=Inter:wght@400;700;900&family=Poppins:wght@400;700;900&display=swap');
+
+:root{
+
+    --fw-1: 400;
+    --fw-2: 700;
+    --fw-3: 900;
+
+    --fs-1: 1.125rem;
+    --fs-2: 1.25rem;
+    --fs-3: 2rem;
+    --fs-small: .9rem;
+
+
+    --color-accent: hsl(7, 4%, 53%);
+    --color-primary: hsl(12, 100%, 94%);
+    --color-bg: hsl(34, 100%, 97%);
+    --color-neutral: hsl(0, 0%, 91%);
+}
+
+* , *::before, *::after{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: var(--color-bg);
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+    font-weight: var(--fw-1);
+    line-height: 1.6;
+}
+
+img,svg,picture,video{
+    display: block;
+    max-width: 100%;
+}
+
+input,select,textarea,button {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+input.search-bar {
+    background: url(../img/search.png) 7px / 15px no-repeat;
+    padding-left:30px;
+    text-align: left;
+    width: 13rem;
+}
+
+.middle .search-bar {
+  border-radius: 5px !important; /* Adjust the value as needed */
+}
+
+.option-bar{
+    display:grid;
+    grid-template-columns: 25% 50% 25%;
+    height: 3rem;
+    font-size: var(--fs-small);
+    margin-block: 1rem;
+    margin-bottom: 4rem;
+}
+
+.option-bar>*{
+    padding-block: 1rem;
+}
+
+.option-bar select{
+    height: 100%;
+    line-height: 10px;
+}
+
+h1 {
+    font-weight: var(--fw-2);
+    font-size: var(--fs-3);
+}
+
+.product-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem,1fr));
+    margin-inline: 2rem;
+    gap: 1rem;
+    justify-items: center;
+    align-items: center;
+}
+
+.product-card{
+    background-color: var(--color-neutral);
+    box-shadow: rgba(0,0,0,0.69) 0.25rem 0.25rem 3px;
+    text-align: center;
+    padding: 1rem;
+    max-width: fit-content;
+}
+
+.product-card > .product-image {
+    width: 13.75rem;
+    height: 13.75rem;
+    object-fit: cover;
+    margin-inline: auto;
+    box-shadow: rgba(0,0,0,0.69) 0.1rem 0.1rem 10px;
+}
+
+a,a:link,a:hover,a:active{
+    text-decoration:  none;
+    color:black;
+    width: fit-content;
+}
+
+h2 {
+    font-size: var(--fs-2);
+    font-weight: var(--fw-2);
+    display: inline-block;
+}
+
+.full {
+    width: 100%;
+    margin-block: 0.25em;
+}
+
+.right select,
+.left select {
+  background-color: #FFE7E1;
+  border-radius: 5px;
+}
+

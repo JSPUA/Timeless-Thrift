@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&family=Inter:wght@400;700;900&family=Poppins:wght@400;700;900&display=swap');
+
+:root{
+
+    --fw-1: 400;
+    --fw-2: 700;
+    --fw-3: 900;
+
+    --fs-1: 1.125rem;
+    --fs-2: 1.25rem;
+    --fs-3: 2rem;
+    --fs-small: .75rem;
+
+
+    --color-accent: hsl(7, 4%, 53%);
+    --color-primary: hsl(12, 100%, 94%);
+    --color-bg: hsl(34, 100%, 97%);
+    --color-neutral: hsl(0, 0%, 91%);
+
+    --box-shadow: 0px 3px 5px -2px ;
+}
+
+* , *::before, *::after{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: var(--color-bg);
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+    font-weight: var(--fw-1);
+    line-height: 1.6;
+}
+
+
+img,svg,picture,video{
+    display: block;
+    max-width: 100%;
+}
+
+input,select,textarea,button {
+    font-family: inherit;
+}
+
+input[type=text],input[type=number]{
+    width: 100%;
+    background-color: #FFE7E1;font-family:'Inter',sans-serif; text-align: center;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+h1{
+    font-weight: var(--fw-2);
+    padding: 0.5em;
+}
+.container{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    max-width: 960px;
+    height: auto;
+    text-align: justify;
+}
+
+.container > *{
+    min-width: 0;
+    min-height: 0;
+}
+
+.column-left{
+    width: 100%;
+}
+
+.column-mid{
+    width: 100%;
+    padding: 1rem;
+}
+
+.heading2{
+    width: 100%;
+    font-size: var(--fs-3);
+    font-weight: var(--fw-2);
+    font-family: 'Dongle',sans-serif;
+    float: left;
+    clear:both;
+}
+
+
+#images {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+}
+
+#images img{
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    margin-inline: auto;
+}
+
+#images_main img{
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    margin-inline: auto;
+}
+
+#images .active {
+    border: 1px solid var(--color-primary);
+}
+
+#name-input{
+    border: 0;
+    box-shadow: 0px 3px 5px -2px ;
+}
+
+#name-input:focus{
+    outline: none;
+}
+
+.btn-1{
+    outline: none;
+    border: 1px solid transparent;
+    background-clip: padding-box;
+    background-color: var(--color-neutral);
+    border-radius: .25rem;
+    padding: calc(.2rem - 1px) calc(1.5rem - 1px);
+    transition: all 100ms;
+    margin-block: 0.5rem;
+}
+
+.btn-1:hover, .btn-1:focus,.btn-1:active{
+    outline: none;
+    background-color: var(--color-primary);
+    color: black;
+    transform: translateY(-1px);
+}
+
+select{
+    outline: 0;
+    border: 0;
+    background-color: var(--color-primary);
+    font-weight: inherit;
+    font-size: inherit;
+    box-shadow: var(--box-shadow);
+    width: fit-content;
+}
+
+.select-container{
+    display: flex;
+    gap: 2em;
+}
+
+.size-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 0.2rem;
+}
+
+.size-container > * {
+    font-size: var(--fs-small);
+}
+
+.price-container{
+    width: 100%;
+    display: flex;
+}
+
+.price-container > * {
+    padding: .25rem;
+    background-color: var(--color-primary);
+    border: 1px solid black;
+    display: inline-block;
+    margin: 0px;
+    box-shadow: 0px 3px 5px -2px ;
+}
+
+.price-container > input {
+    box-shadow: 0px 3px 5px -2px ;
+    border-left: none;
+    width: 5em;
+}
+
+
+
+/* body {
+  background-color: #fff9f1;
+  font-family: "Poppins", sans-serif;
+  margin: auto;
+  max-width: 1100px;
+  text-align: center;
+}
+
+img,svg,picture,video{
+    display: block;
+    max-width: 100%;
+}
+
+
+.images{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    gap: 1em;
+    padding: 1em;
+    grid-template-rows: 80%;
+}
+
+.images > *{
+    height: 100%;
+    width: 100%;
+}
+
+
+.header1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+.heading2 {
+  font-family: "Dongle", sans-serif;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.pictureBox {
+  width: 300px;
+  height: 100%;
+  background: #e9e9e9;
+  box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 0.01);
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+  border: 1px solid black;
+}
+
+.borderTest {
+    border: black;
+    border-style: none;
+} */
